@@ -26,7 +26,7 @@ in real-world fund accounting and NAV operations teams.
 ---
 
 ## Project Structure
-'''
+```
 fund-accounting-toolkit/
 ├── nav_calculation.py
 │
@@ -40,14 +40,16 @@ fund-accounting-toolkit/
 │
 ├── requirements.txt
 └── README.md
-'''
-
-
----
+```
 
 ## How to Run
 
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
-'''
+```
+### Run NAV calculation
+```
+python nav_calculation.py
+```
+
